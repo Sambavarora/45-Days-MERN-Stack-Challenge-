@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1F2B;
+}
+#calc{
+    height: 45vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    background-color:#1C1F2B;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+}
+#calc::after, #calc::before{
+    content: ' ';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(#ff4545, #00ff99, #006aff,#ff0095,#ff4545);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    padding: 3px;
+    z-index: -1;
+    border-radius: 10px;
+}
+#calc::before{
+    filter: blur(1.5 rem);
+    opacity: 0.5;
+}
+.question{
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#grade{
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+#submit{
+    font-size: 25px;
+    align-self: center;
+    justify-self: center;
+    display:flex;
+    margin-bottom: 10px;
+}
+h3, h5{
+    font-size: 28px;
+    color: white;
+}
