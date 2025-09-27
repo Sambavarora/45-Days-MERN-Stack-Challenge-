@@ -1,0 +1,85 @@
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+
+     #me{
+         height: 100dvh;
+         width: 100dvw;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family: "Poppins",sans-serif;
+         background: white;
+background-image: linear-gradient(to right bottom, #262626, #414142, #5e5e60, #7b7d81, #9a9ea2, #adb1b5, #c0c4c9, #d4d8dd, #dfe1e5, #eaebee, #f5f5f6, #ffffff);     }
+     
+#btn{
+    position: absolute;
+    bottom: 20%;
+    height: 30px;
+    width: 50px;
+    color: black;
+    background-image: linear-gradient(to right bottom, #262626, #414142, #5e5e60, #7b7d81, #9a9ea2, #adb1b5, #c0c4c9, #d4d8dd, #dfe1e5, #eaebee, #f5f5f6, #ffffff); 
+}
+     .card {
+         display: flex;
+         align-items: center;
+         border-radius: 9px;
+         width: 450px;
+         height: 280px;
+         box-shadow: 0px 10px 10px#000000, 0px 12px 12px#000000, 0px 15px 15px#000000;
+         background-image: linear-gradient(to right bottom, #000000, #1e1e1e, #363636, #505050, #6b6b6b, #6b6b6b, #6b6b6b, #6b6b6b, #505050, #363636, #1e1e1e, #000000);
+     }
+
+     .photo {
+         border-radius: 50%;
+         width: 150px;
+         height: 150px;
+         margin-left: 3px;
+     }
+
+     .info {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+
+         width: 300px;
+         height: 240px;
+
+     }
+
+     h1,
+     h3 {
+         color: white;
+
+     }
+
+     h1 {
+         margin-top: 15px;
+         margin-bottom: 12px;
+     }
+
+     p {
+         color: gold;
+         margin-top: 20px;
+         font-size: 11px;
+         margin-bottom: 15px;
+     }
+
+     a {
+         text-decoration: none;
+     }
+
+     .email {
+         color: white;
+     }
+
+     .email:hover {
+         cursor: pointer;
+
+
+     }
